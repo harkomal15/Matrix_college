@@ -1,0 +1,80 @@
+
+1. Create appropriate variables that store a number, string, undefined and array.
+answer.var num = 1;
+     var str = "string";
+     var u = undefined
+2. Create an array that stores the 5 business days of the week. Use the length 
+property to display its size. Use the appropriate methods to add Saturday at the end and 
+Sunday at the begining.
+   var num = 1;
+   var str = "string";
+   var u = undefine
+   var array = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+    console.log(array.length);
+   array.push("Saturday");
+    array.unshift("Sunday"); 
+
+
+
+3.Write a program using do..while loop to diplay "Hello world" 7 times. 
+
+import java.util.Date;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        int i =1;
+        do{
+        
+        System.out.println("Hello World!");
+        i++;
+        } while(i<=7);
+        
+    }
+}
+
+4. Write a program to loop numbers between 1 and 100 but only display even numbers. 
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int i;
+    for (i=1;i<=100;i++)
+    {
+      if (i%2==0)
+      cout<<i<<endl;
+    }
+    return 0;
+}
+
+5. Write a program to loop through numbers 1 to 10 using for loop. 
+   for (let i=1; i<=10; i++) { 
+    console.log(i); 
+};
+6. Write a program using switch case to display the 7 days of week. Case numbers start from 1 and go till 7. 
+switch (d) {
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+    break;
+  case 7:
+    day = "Sunday";
+}
+7. Write a program using and operator to check if a number is greater than 18 and less than 25.
+  if (num < 25 && num > 18) {
+    console.log("True");
+};
